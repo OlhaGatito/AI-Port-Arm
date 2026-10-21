@@ -1,0 +1,88 @@
+﻿/work/
+/build/
+/inputs/
+*.apk
+*.apkm
+*.apks
+*.xapk
+*.ipa
+*.obb
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.pyc
+__pycache__/
+.env
+.env.*
+core
+core.*
+
+# WorkBuddy local agent data (not part of the collection)
+.workbuddy/
+
+.qoder-credits/
+
+# newports: game payloads and debug artifacts stay local
+/newports/**/apk/
+/newports/**/gamedata/
+/newports/**/deploy/
+/newports/**/logs/
+/newports/**/home/
+/newports/**/lib/
+/newports/**/assets/
+/newports/**/*.ppm
+/newports/**/*.png
+/newports/**/bad2bad-nextos
+newports/**/greak-nextos
+newports/**/broforce-nextos
+newports/**/60parsecs-nextos
+/newports/**/shot-*
+/newports/**/logs-*.txt
+
+# abandoned BENDER unity_probe route (kept on disk for reference only)
+/newports/60parsecs/archive-bender/
+
+# 60parsecs analysis + SSH helpers (the helpers carry a device address and credentials)
+/newports/60parsecs/tools/
+
+# local scratch / device probes (not part of the collection)
+newports/**/tmp_*
+
+# device logs and credentialed SSH helpers (contain host addresses / passwords)
+newports/**/log_*.txt
+
+# beastiebay: payload extracted from the APK (Kairosoft's own binaries -- not ours
+# to redistribute) and the SSH helpers that carry the device address/password.
+# Matches the rule already applied to 60parsecs/broforce/bad2bad/greak tools.
+/newports/beastiebay/bbmeta/
+/newports/beastiebay/tools/bb_ssh.py
+/newports/beastiebay/tools/bb_hookdump.py
+/newports/beastiebay/tools/deploy_game.py
+/newports/beastiebay/tools/fetch_meta.py
+/newports/beastiebay/tools/run_remote.py
+newports/**/log-*.txt
+newports/**/dev.py
+newports/**/devtest*.txt
+newports/**/osrel*.txt
+
+# greak local analysis probes
+newports/greakmemoriesofazur/analyze-*.sh
+newports/greakmemoriesofazur/find-*.sh
+newports/greakmemoriesofazur/port/dump-*.sh
+
+# broforce: SSH helpers that carry the device address and password (keep local)
+newports/broforce/port/fetch.py
+newports/broforce/port/upload.py
+
+# doubledragongaiden: built loader, store zip backup, SSH helpers (device address)
+/newports/doubledragongaiden/port/ddgaiden-nextos
+/newports/doubledragongaiden/game.apk.prev
+/newports/doubledragongaiden/tools/put_file.py
+/newports/doubledragongaiden/tools/run_remote.py
+/newports/doubledragongaiden/tools/deploy_game.py
+/newports/beastiebay/port/beastiebay-nextos
+
+# ragingloop: local build artifacts and scratch (do not commit)
+newports/ragingloop/port/build-aarch64/
+newports/ragingloop/work/

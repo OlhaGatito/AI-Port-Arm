@@ -1,0 +1,48 @@
+# NEXTOSCONTROLLERS — Beastie Bay (Kairosoft, Unity 2018.4.24f1)
+# NextOS own format. NOT gptokeyb: never becomes a keyboard.
+# Actions come from the fp2-lineage input adapter (src/input_gptk.c):
+#   fp2.attack fp2.cancel fp2.confirm fp2.guard fp2.jump fp2.move
+#   fp2.pause fp2.special
+# Kairosoft games are menu-driven: A=confirm B=cancel START=pause.
+format = NEXTOS_CONTROLLERS/2
+port = beastiebay
+
+[menu]
+A = fp2.confirm
+B = fp2.cancel
+X = fp2.attack
+Y = fp2.special
+L1 = fp2.guard
+L2 = native
+R1 = fp2.jump
+R2 = native
+L3 = native
+R3 = native
+START = fp2.pause
+SELECT = fp2.guard
+UP = native
+DOWN = native
+LEFT = native
+RIGHT = native
+LEFT_STICK = fp2.move
+RIGHT_STICK = native
+
+[gameplay]
+A = fp2.confirm
+B = fp2.cancel
+X = fp2.attack
+Y = fp2.special
+L1 = fp2.guard
+L2 = native
+R1 = fp2.jump
+R2 = native
+L3 = native
+R3 = native
+START = fp2.pause
+SELECT = fp2.guard
+UP = native
+DOWN = native
+LEFT = native
+RIGHT = native
+LEFT_STICK = fp2.move
+RIGHT_STICK = native

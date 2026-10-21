@@ -1,0 +1,37 @@
+# armhf cross build env for the RR3 loader, on the local PortMaster builder image.
+#
+# Base = portmaster-builder:aarch64-armhf-zen2 (Ubuntu 20.04, glibc 2.31), which
+# already ships gcc-9 cross for arm-linux-gnueabihf plus libc6-dev-armhf-cross,
+# so the ELF this produces sits at the same GLIBC_2.31 floor as the pinned
+# Dockerfile.build (verified on the sibling armhf port, which came out at
+# GLIBC_2.29). The base image is arm64 and only carries *aarch64* dev libs, so
+# the four armhf -dev packages the loader's Makefile asks for are added here.
+#
+# SDL2 stays at focal's 2.0.10: the loader links against base 2.0 APIs and, on
+# the device, resolves against the CFW's own libSDL2-2.0.so.0. Building the
+# vendored 2.0.22 (third_party/) is only needed for the headless qemu harness,
+# not for a device run.
+
+FROM portmaster-builder:aarch64-armhf-zen2
+
+RUN dpkg --add-architecture armhf && \
+    printf '%s\n' \
+        "deb [arch=armhf] http://ports.ubuntu.com/ubuntu-ports focal main universe restricted" \
+        > /etc/apt/sources.list.d/armhf-cross.list && \
+    apt-get -o Acquire::Retries=5 update && \
+    apt-get -o Acquire::Retries=5 install -y --no-install-recommends \
+        libsdl2-dev:armhf \
+        zlib1g-dev:armhf \
+        libzip-dev:armhf \
+        libbsd-dev:armhf \
+        pkg-config \
+        make \
+    && rm -rf /var/lib/apt/lists/*
+
+# The base image's pkg-config is a plain host binary; armhf .pc files live under
+# /usr/lib/arm-linux-gnueabihf/pkgconfig, and PKG_CONFIG_LIBDIR keeps it from
+# picking up aarch64 paths.
+ENV PKG_CONFIG_PATH=/usr/lib/arm-linux-gnueabihf/pkgconfig
+ENV PKG_CONFIG_LIBDIR=/usr/lib/arm-linux-gnueabihf/pkgconfig
+ENV PKG_CONFIG=pkg-config
+WORKDIR /src

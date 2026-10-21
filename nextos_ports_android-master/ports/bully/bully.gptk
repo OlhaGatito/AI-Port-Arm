@@ -1,0 +1,53 @@
+# Bully: Anniversary Edition (NextOS Elite) — gptokeyb, layout PS2 (DualShock)
+# ATENCAO: o parser do gptokeyb NAO aceita comentario na linha do valor —
+# comentarios SEMPRE em linha propria.
+#
+# Teclas->acoes do engine (fixas no binario):
+#   x=Cruz c=Circulo q=Quadrado t=Triangulo enter=START esc=SELECT
+#   k=MIRA(lock-on) l=DISPARAR f=item-esq g=item-dir
+#   n=olhar-p/-tras m=agachar h/j=shoulders u/i=L3/R3-alt setas=NAV
+# Sair: SELECT+START
+
+# face (posicoes PS2: a=Cruz b=Circulo x=Quadrado y=Triangulo)
+a = x
+b = c
+x = q
+y = t
+
+start = enter
+back = esc
+
+# ATENCAO: neste pad o gptokeyb enxerga shoulder<->gatilho TROCADOS
+# (fisico L1 chega como 'l2', fisico L2 como 'l1', idem direita).
+# Funcoes: u=mira(6) i=disparar(7) f=item-esq(14) g=item-dir(15)
+# fisico L2 -> cycle esq
+l1 = f
+# fisico L1 -> MIRA
+l2 = u
+# fisico R2 -> cycle dir
+r1 = g
+# fisico R1 -> DISPARAR
+r2 = i
+# L3 = olhar p/ tras, R3 = agachar
+l3 = n
+r3 = m
+
+up = up
+down = down
+left = left
+right = right
+
+# stick esq fallback digital (o binario usa o pad analogico se visivel)
+left_analog_up = w
+left_analog_down = s
+left_analog_left = a
+left_analog_right = d
+
+# stick dir fallback = mouse (camera)
+right_analog_up = mouse_movement_up
+right_analog_down = mouse_movement_down
+right_analog_left = mouse_movement_left
+right_analog_right = mouse_movement_right
+
+mouse_scale = 512
+deadzone_y = 15000

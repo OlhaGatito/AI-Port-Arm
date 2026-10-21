@@ -1,0 +1,1091 @@
+{
+  "schema": 1,
+  "author": "NextOS",
+  "scope": "source-reference search; unknown is not support",
+  "profiles": [
+    {
+      "id": "actionsquad-nextos",
+      "games": [
+        "Door Kickers: Action Squad"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "842efc61a47192cd3ac4d3062dbe9c32e808c791",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/actionsquad-nextos/upstream/nxproject.json",
+        "ports/actionsquad-nextos/upstream/extractor.json",
+        "ports/actionsquad-nextos/upstream/actionsquad/README.md"
+      ],
+      "manifest": "ports/actionsquad-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/actionsquad-nextos/upstream/actionsquad/README.md",
+          "sha256": "b73e938f5629ee237c5798de173f2c226371b88c7d850968531f710bcf079f83"
+        }
+      ]
+    },
+    {
+      "id": "angrybirds-nextos",
+      "games": [
+        "Angry Birds Classic"
+      ],
+      "engine": "Rovio Fusion",
+      "engine_version": "unknown",
+      "abis": [
+        "armeabi-v7a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "74af40a86d09126e5e2c3b220102411c44407fd5",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/angrybirds-nextos/upstream/nxproject.json",
+        "ports/angrybirds-nextos/upstream/extractor.json",
+        "ports/angrybirds-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/angrybirds-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/angrybirds-nextos/upstream/README.md",
+          "sha256": "58945c23d9a5ab4c42854e34072b7a82b1135c68ea6e783d65e0b5fa05f8e24b"
+        }
+      ]
+    },
+    {
+      "id": "beachbuggy-nextos",
+      "games": [
+        "Beach Buggy Racing",
+        "Beach Buggy Racing 2"
+      ],
+      "engine": "Vector Unit native C++",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in both selected Android extraction recipes; not retested",
+      "renderer": "unknown",
+      "source_commit": "2d6a2dc040711c801ba43ed3a407d2093e713fb6",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/beachbuggy-nextos/upstream/README.md",
+        "ports/beachbuggy-nextos/upstream/beachbuggy/README.md",
+        "ports/beachbuggy-nextos/upstream/bbracing2/README.md",
+        "ports/beachbuggy-nextos/upstream/beachbuggy/extractor.json",
+        "ports/beachbuggy-nextos/upstream/bbracing2/extractor.json"
+      ],
+      "manifest": "ports/beachbuggy-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/beachbuggy-nextos/upstream/README.md",
+          "sha256": "6042b4c5bd45d195662a3fd39c90fb78d4b73b8aa96521a8d727b89bc5b4da7e"
+        },
+        {
+          "path": "ports/beachbuggy-nextos/upstream/beachbuggy/README.md",
+          "sha256": "256c1681f8b5ddce6479a8543b96b995880fdc4c93642927477ebd7d064d90bb"
+        },
+        {
+          "path": "ports/beachbuggy-nextos/upstream/bbracing2/README.md",
+          "sha256": "16bb1fddbb4807843caf6a6988c76324070f5f5ce66e50d9fbc2a461a566a6c6"
+        },
+        {
+          "path": "ports/beachbuggy-nextos/upstream/beachbuggy/extractor.json",
+          "sha256": "55f9040a2587f8b4e05a82545de47f8d30afd57860956c0b1171c5a70ff52b86"
+        },
+        {
+          "path": "ports/beachbuggy-nextos/upstream/bbracing2/extractor.json",
+          "sha256": "344b3fd409fcdc28e1c02c8ae3e1ca4bf355e334d3a0b1f8f3dd961b9482cfbd"
+        }
+      ]
+    },
+    {
+      "id": "blossomtales-nextos",
+      "games": [
+        "Blossom Tales: The Sleeping King"
+      ],
+      "engine": "Mono Android / MonoGame",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "03f1088305be779c3ba528ec6a69c7542068f6f7",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/blossomtales-nextos/upstream/nxproject.json",
+        "ports/blossomtales-nextos/upstream/extractor.json",
+        "ports/blossomtales-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/blossomtales-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "mono-android",
+      "classification_evidence": [
+        {
+          "path": "ports/blossomtales-nextos/upstream/README.md",
+          "sha256": "ec7da99b0cf2116c481d6d34ab76360790c3170ed71c6f4912930009e0127538"
+        }
+      ]
+    },
+    {
+      "id": "bombchicken-gunbrick-nextos",
+      "games": [
+        "Bomb Chicken",
+        "Gunbrick Reloaded"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.39f1",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "53df6041da4ecc4905af5ecd24551034eea21175",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "portando_unity/cases/bombchicken.en.md"
+      ],
+      "manifest": "ports/bombchicken-gunbrick-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "castleofillusion-nextos",
+      "games": [
+        "Castle of Illusion"
+      ],
+      "engine": "SEGA oz",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "bbe0f6bf038be7960903dad7abb3b34c5baf5a10",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/castleofillusion-nextos/upstream/extractor.json",
+        "ports/castleofillusion-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/castleofillusion-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/castleofillusion-nextos/upstream/README.md",
+          "sha256": "d276255ecc0d567a2bf561f8498224656a93459df7c1cd8f735065adcf24539b"
+        }
+      ]
+    },
+    {
+      "id": "chrono-nextos",
+      "games": [
+        "Chrono Trigger"
+      ],
+      "engine": "Cocos2d-x",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "f0d465c5c1d4787865d052e412c114435b5cbf05",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/chrono-nextos/upstream/nxproject.json",
+        "ports/chrono-nextos/upstream/extractor.json",
+        "ports/chrono-nextos/README.en.md"
+      ],
+      "manifest": "ports/chrono-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "cocos2d-x"
+    },
+    {
+      "id": "deadtrigger-nextos",
+      "games": [
+        "Dead Trigger"
+      ],
+      "engine": "Unity",
+      "engine_version": "2019.4 (patch a confirmar / patch to confirm)",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "8fe021e4188db177a074547473d7723e060748fe",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/deadtrigger-nextos/upstream/extractor.json",
+        "portando_unity/cases/deadtrigger.en.md"
+      ],
+      "manifest": "ports/deadtrigger-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "ff4-nextos",
+      "games": [
+        "Final Fantasy IV (3D Remake)",
+        "Final Fantasy IV: The After Years"
+      ],
+      "engine": "cuore / Matrix",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "58806cdbee0a37709969559d154b025a222c6bd8",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/ff4-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/ff4-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/ff4-nextos/upstream/README.md",
+          "sha256": "849aff6965d08005c6861f08146057a790dbd4236cd8db7713c89814d6c0e711"
+        }
+      ]
+    },
+    {
+      "id": "forager-nextos",
+      "games": [
+        "Forager Nuclear"
+      ],
+      "engine": "GameMaker / YoYo runner",
+      "engine_version": "unknown",
+      "abis": [
+        "armeabi-v7a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "89e5c7107889f6b19a705f006f9f492bb0eb80da",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/forager-nextos/upstream/nxproject.json",
+        "ports/forager-nextos/upstream/extractor.json",
+        "ports/forager-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/forager-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "gamemaker",
+      "classification_evidence": [
+        {
+          "path": "ports/forager-nextos/upstream/README.md",
+          "sha256": "fefc6a4c1b8bd426dfad4aa4c3d66a4de836d1172708501d5ef4d828efae8d2d"
+        }
+      ],
+      "reference_notes": "Game version 1.0.13 is not a GameMaker runner version. ARMv7-only source case; GPL-2.0-only loader has a separate license boundary from GPL-3.0-only collection code."
+    },
+    {
+      "id": "fp2-nextos",
+      "games": [
+        "Freedom Planet 2"
+      ],
+      "engine": "Unity",
+      "engine_version": "2018.4.36f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "f8caab9d946c39041fa5cc25cb52621590f82adc",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/fp2-nextos/upstream/nxproject.json",
+        "ports/fp2-nextos/upstream/extractor.json",
+        "portando_unity/cases/fp2.en.md"
+      ],
+      "manifest": "ports/fp2-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "geometrydash-nextos",
+      "games": [
+        "Geometry Dash",
+        "Geometry Dash SubZero"
+      ],
+      "engine": "Cocos2d-x",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "8fc62be4c2e19f204cc846ff6e979c78fe1bcbd7",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/geometrydash-nextos/README.en.md"
+      ],
+      "manifest": "ports/geometrydash-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "cocos2d-x"
+    },
+    {
+      "id": "hitmango-nextos",
+      "games": [
+        "Hitman GO"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.67f2",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "3f735165348e17d4f9aa20f1d227a9b1ecb4efb8",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/hitmango-nextos/upstream/project/nxproject.json",
+        "ports/hitmango-nextos/upstream/extractor.json",
+        "ports/hitmango-nextos/upstream/project/extractor.json",
+        "portando_unity/cases/hitmango.en.md"
+      ],
+      "manifest": "ports/hitmango-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "horizonchase-nextos",
+      "games": [
+        "Horizon Chase"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.33f1",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "59d2d38dc496ae0a71726181d3ccc80923e4144d",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "portando_unity/cases/horizonchase.en.md"
+      ],
+      "manifest": "ports/horizonchase-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "huntdown-nextos",
+      "games": [
+        "Huntdown"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.47f1 / 6000.2.6f2",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "7eef080e69a66a09efc005bf3472035eef09248b",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/huntdown-nextos/upstream/nxproject.json",
+        "ports/huntdown-nextos/upstream/project/nxproject.json",
+        "ports/huntdown-nextos/upstream/extractor.json",
+        "ports/huntdown-nextos/upstream/project/extractor.json",
+        "portando_unity/cases/huntdown.en.md"
+      ],
+      "manifest": "ports/huntdown-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "kotor-nextos",
+      "games": [
+        "Star Wars: Knights of the Old Republic"
+      ],
+      "engine": "Odyssey / Android SDL2",
+      "engine_version": "unknown",
+      "abis": [
+        "armeabi-v7a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "9d8dc0cdd3cf164a39f480200ab20a9a1117b91b",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/kotor-nextos/upstream/extractor.json",
+        "ports/kotor-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/kotor-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/kotor-nextos/upstream/README.md",
+          "sha256": "357183c9a945d4a31a72ca8d310b3b38728841fc603d2a23328b91c451479298"
+        }
+      ]
+    },
+    {
+      "id": "magicrampage-nextos",
+      "games": [
+        "Magic Rampage"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "852f6be8617699194ad96944c7f028a752ab5dad",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/magicrampage-nextos/upstream/project/nxproject.json",
+        "ports/magicrampage-nextos/upstream/project/extractor.json",
+        "ports/magicrampage-nextos/upstream/magicrampage/README.md"
+      ],
+      "manifest": "ports/magicrampage-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/magicrampage-nextos/upstream/magicrampage/README.md",
+          "sha256": "0a9c71ddf4889d49b701f017c84b564883022fb71499bb7f824675174bab7a4a"
+        }
+      ]
+    },
+    {
+      "id": "merchantskies-nextos",
+      "games": [
+        "Merchant of the Skies"
+      ],
+      "engine": "Unity",
+      "engine_version": "6000.4.2f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "213a3d9875158164bb532ef031651a052ab8360e",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/merchantskies-nextos/upstream/nxproject.json",
+        "ports/merchantskies-nextos/upstream/extractor.json",
+        "portando_unity/cases/merchantskies.en.md"
+      ],
+      "manifest": "ports/merchantskies-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "namelesscat-nextos",
+      "games": [
+        "Nameless Cat"
+      ],
+      "engine": "Unity",
+      "engine_version": "6000.3.11f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "fb489c406495e30822d50c8250c76810845414d5",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/namelesscat-nextos/upstream/nxproject.json",
+        "ports/namelesscat-nextos/upstream/extractor.json",
+        "portando_unity/cases/namelesscat.en.md"
+      ],
+      "manifest": "ports/namelesscat-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "oceanhorn-nextos",
+      "games": [
+        "Oceanhorn: Chronos Dungeon"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.61f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "7cb05cca86afbb4b8a6e76aa251c8f0f8397bc9e",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/oceanhorn-nextos/upstream/nxproject.json",
+        "ports/oceanhorn-nextos/upstream/extractor.json",
+        "portando_unity/cases/oceanhorn.en.md"
+      ],
+      "manifest": "ports/oceanhorn-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "offtheroad-nextos",
+      "games": [
+        "Off The Road"
+      ],
+      "engine": "xGen / Horde3D + bgfx (Cocos2d-x shell)",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "2bfb806d92c64edaf9f3383ab9edc55a37f97fcd",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/offtheroad-nextos/upstream/nxproject.json",
+        "ports/offtheroad-nextos/upstream/extractor.json",
+        "ports/offtheroad-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/offtheroad-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/offtheroad-nextos/upstream/README.md",
+          "sha256": "5079f47bed8f52451a7054ab9eb601fc6e55d0aa9e34c261da8a659191fe4678"
+        }
+      ]
+    },
+    {
+      "id": "partyboard-nextos",
+      "games": [
+        "PartyBoard / Mario Party 4"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "6ac391d61fda260aadb0c8b1e5f77d2ae5f0d797",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [],
+      "manifest": "ports/partyboard-nextos/SOURCE-MAP.json",
+      "platform": "GameCube",
+      "runtime_family": "unknown"
+    },
+    {
+      "id": "partyhard-nextos",
+      "games": [
+        "Party Hard GO"
+      ],
+      "engine": "Unity",
+      "engine_version": "6000.3.10f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "0a03b8483ac9c84d3be63c8dd898cf5acd305576",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/partyhard-nextos/upstream/nxproject.json",
+        "ports/partyhard-nextos/upstream/extractor.json",
+        "portando_unity/cases/partyhard.en.md"
+      ],
+      "manifest": "ports/partyhard-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "pikmin-nextos",
+      "games": [
+        "Pikmin"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "1e6af10318a73f4db8251c52241ad868583891d3",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [],
+      "manifest": "ports/pikmin-nextos/SOURCE-MAP.json",
+      "platform": "GameCube",
+      "runtime_family": "unknown"
+    },
+    {
+      "id": "prizefighters2-nextos",
+      "games": [
+        "Prizefighters 2"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.62f2",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "53371b37dc5d01e0a8c09d683536ee1c48f35d6c",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/prizefighters2-nextos/upstream/extractor.json",
+        "portando_unity/cases/pf2.en.md"
+      ],
+      "manifest": "ports/prizefighters2-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "rcrdx-nextos",
+      "games": [
+        "Retro City Rampage DX"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "7d79b145f9c271ac5bbf959fb254880482ac99a1",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/rcrdx-nextos/upstream/nxproject.json",
+        "ports/rcrdx-nextos/upstream/extractor.json",
+        "ports/rcrdx-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/rcrdx-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/rcrdx-nextos/upstream/README.md",
+          "sha256": "1947d2dd2198cf3178001b0177cd8ade08563afbda8ea7cabd1aff023c2f2673"
+        }
+      ]
+    },
+    {
+      "id": "sallyface-nextos",
+      "games": [
+        "Sally Face"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.62f3",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "39f3d3bd7fed4f160ae20af0f8824ab6b71b79bf",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/sallyface-nextos/upstream/nxproject.json",
+        "ports/sallyface-nextos/upstream/extractor.json",
+        "portando_unity/cases/sallyface.en.md"
+      ],
+      "manifest": "ports/sallyface-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "scourgebringer-nextos",
+      "games": [
+        "ScourgeBringer"
+      ],
+      "engine": "Mono Android",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "94bc81622e5261ce23a7f5fee314d441e7c320a1",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/scourgebringer-nextos/upstream/extractor.json",
+        "ports/scourgebringer-nextos/README.en.md"
+      ],
+      "manifest": "ports/scourgebringer-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "mono-android"
+    },
+    {
+      "id": "skate3-nextos",
+      "games": [
+        "Skateboard Party 3"
+      ],
+      "engine": "Unity",
+      "engine_version": "2022.3.45f1",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "18621e90ce7458c3166aa50d5cc508a13e65ee84",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "portando_unity/cases/skate3.en.md"
+      ],
+      "manifest": "ports/skate3-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "sonic4ep2-nextos",
+      "games": [
+        "Sonic the Hedgehog 4: Episode II"
+      ],
+      "engine": "SEGA libfox (native Android)",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in selected Android source README; not retested",
+      "renderer": "unknown",
+      "source_commit": "52ec4bfbf51753ccdc0706a901c1412c4a5a61e5",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/sonic4ep2-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/sonic4ep2-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/sonic4ep2-nextos/upstream/README.md",
+          "sha256": "d8e53c22e96decb6979ce11c2e7b3cea20a46d0bc4c30e247a5cd5da26937f70"
+        }
+      ]
+    },
+    {
+      "id": "sor4-nextos",
+      "games": [
+        "Streets of Rage 4"
+      ],
+      "engine": "MonoGame / managed host",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "3c17968325ec40a3f910ca690ab0b4cab76ae950",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/sor4-nextos/README.en.md"
+      ],
+      "manifest": "ports/sor4-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "mono-android"
+    },
+    {
+      "id": "stardewvalley-nextos",
+      "games": [
+        "Stardew Valley"
+      ],
+      "engine": "Mono Android",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "7ac80b7648dca62f33594becef74d6d4d89f3b36",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/stardewvalley-nextos/upstream/extractor.json",
+        "ports/stardewvalley-nextos/README.en.md"
+      ],
+      "manifest": "ports/stardewvalley-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "mono-android"
+    },
+    {
+      "id": "summertimesaga-nextos",
+      "games": [
+        "Summertime Saga Preview"
+      ],
+      "engine": "Ren'Py",
+      "engine_version": "8.5.3 (selected Ren'Py sources; check the guest runtime separately)",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "bf5929bfdcdb03e17a27d053a91c36477b207032",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/summertimesaga-nextos/upstream/extractor.json",
+        "ports/summertimesaga-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/summertimesaga-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "renpy",
+      "classification_evidence": [
+        {
+          "path": "ports/summertimesaga-nextos/upstream/README.md",
+          "sha256": "193f3e9affe72959e02382d6f71dc4ba101540b162c7038e337b02fea0dfdad6"
+        }
+      ]
+    },
+    {
+      "id": "suzycube-nextos",
+      "games": [
+        "Suzy Cube"
+      ],
+      "engine": "Unity",
+      "engine_version": "2017.4.40f1",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "c3db13c749173e08d33d57839aca961d0a2ab319",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/suzycube-nextos/upstream/nxproject.json",
+        "ports/suzycube-nextos/upstream/extractor.json",
+        "portando_unity/cases/suzycube.en.md"
+      ],
+      "manifest": "ports/suzycube-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "swordigo-nextos",
+      "games": [
+        "Swordigo"
+      ],
+      "engine": "Caver",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "28b315f08652db71f35158ae3af454d470ae624f",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/swordigo-nextos/upstream/extractor.json",
+        "ports/swordigo-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/swordigo-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/swordigo-nextos/upstream/README.md",
+          "sha256": "0be48e3c8565ff56fe739660eb4e426a51045d6aab9e07323c7bfdd91ca1c4ff"
+        }
+      ]
+    },
+    {
+      "id": "tasm2-nextos",
+      "games": [
+        "The Amazing Spider-Man 2"
+      ],
+      "engine": "unknown",
+      "engine_version": "unknown",
+      "abis": [],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "efcad10d4d525ed593d34a1463021a41a780e7f0",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/tasm2-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/tasm2-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/tasm2-nextos/upstream/README.md",
+          "sha256": "3348da53bab1f4bce8727caf01567de19db77d59bd5a9a720c42bbd5e23c29e0"
+        }
+      ]
+    },
+    {
+      "id": "tearscape-nextos",
+      "games": [
+        "Tearscape"
+      ],
+      "engine": "Godot",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "de162373a9e9d2e65880266b820a06971a9f87a3",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/tearscape-nextos/upstream/nxproject.json",
+        "ports/tearscape-nextos/upstream/extractor.json",
+        "ports/tearscape-nextos/README.en.md"
+      ],
+      "manifest": "ports/tearscape-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "godot"
+    },
+    {
+      "id": "terraria-nextos",
+      "games": [
+        "Terraria"
+      ],
+      "engine": "Unity",
+      "engine_version": "2021.3.56f2",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "GLES2 reference profile",
+      "source_commit": "e04f6fe7d3be9591e659f6ecd42355d1b5d2caf6",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/terraria-nextos/upstream/nxproject.json",
+        "ports/terraria-nextos/upstream/extractor.json",
+        "portando_unity/cases/terraria.en.md"
+      ],
+      "manifest": "ports/terraria-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "unity"
+    },
+    {
+      "id": "tightrope-nextos",
+      "games": [
+        "Tightrope Theatre"
+      ],
+      "engine": "Haxe / hxcpp / Lime",
+      "engine_version": "unknown",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "75eb5da65994995e38057c758440faafd63d87e8",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/tightrope-nextos/upstream/extractor.json",
+        "ports/tightrope-nextos/upstream/src/main.c",
+        "ports/tightrope-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/tightrope-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "haxe-lime",
+      "classification_evidence": [
+        {
+          "path": "ports/tightrope-nextos/upstream/src/main.c",
+          "sha256": "e237a374cfbb61d181137038429f333e9548d7c977bb4d588d2c34181429e028"
+        },
+        {
+          "path": "ports/tightrope-nextos/upstream/README.md",
+          "sha256": "b14e19a3b841017dd0b6cdd7e8a07cf2e20e10d88e45a75c38b3ca1c808a1b0d"
+        }
+      ],
+      "reference_notes": "Selected source is 1.0.5-test.1; exact physical acceptance is pending. Earlier 1.0.4 evidence does not approve this candidate or a new adapter."
+    },
+    {
+      "id": "titansouls-nextos",
+      "games": [
+        "Titan Souls"
+      ],
+      "engine": "Abstraction Games native Android",
+      "engine_version": "unknown",
+      "abis": [
+        "armeabi-v7a"
+      ],
+      "abi_scope": "declared in reference manifests; not retested",
+      "renderer": "unknown",
+      "source_commit": "b697a51fde1ba32ab6f8eb5c246e6eb88bc19be3",
+      "build_status": "source-selection-not-built",
+      "tested_devices": [],
+      "hardware_status": "not-revalidated-in-this-collection",
+      "evidence": [
+        "ports/titansouls-nextos/upstream/nxproject.json",
+        "ports/titansouls-nextos/upstream/extractor.json",
+        "ports/titansouls-nextos/upstream/README.md"
+      ],
+      "manifest": "ports/titansouls-nextos/SOURCE-MAP.json",
+      "platform": "Android",
+      "runtime_family": "native-android",
+      "classification_evidence": [
+        {
+          "path": "ports/titansouls-nextos/upstream/README.md",
+          "sha256": "d2fcaa36dddc22cd7c0a32712eaca0ed7d4ceed4b66a9f66a0305f18de124473"
+        }
+      ]
+    }
+  ],
+  "runtime_classification_scope": "Android guide routing from existing public-source evidence; engine identity and framework compatibility are separate. No hardware claims added."
+}

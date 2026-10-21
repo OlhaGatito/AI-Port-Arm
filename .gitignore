@@ -1,0 +1,55 @@
+# ===== Gatito / AI-Port-Arm =====
+# Regra 4: binarios grandes e conteudo protegido por copyright NUNCA sobem.
+# Documentado em docs/EXCLUSOES.md
+
+# --- Binarios de jogos / dados de jogo (copyright) ---
+*.apk
+*.obz
+*.obb
+*.ipk
+*.so
+*.a
+*.o
+*.rar
+*.7z
+*.zip
+*.jar
+*.nxb
+*.nro
+*.elf
+*.bin
+*.dat
+
+# --- Excecoes intencionais (fixtures/testes pequenos e legitimos) ---
+!nextos-framework/framework/nxrelease/tests/fixtures/*
+!nextos-framework/publication/*.json
+
+# --- Dumps/framework local ---
+nextos-framework-master.zip
+ShadowFight2.apk
+
+# --- Git aninhado / backups ---
+*.pack
+*.idx
+sf2-reference/
+ports/ShadowFight2/nextos-check/
+ports/ShadowFight2/sdl2-src/
+sf2-analysis/
+
+# --- Segredos (nunca devem existir, mas por garantia) ---
+*.pem
+!nextos_ports_android-master/**/cacert.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+credentials*.json
+token*.json
+config_secrets*
+
+# --- Sistema ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log.bak

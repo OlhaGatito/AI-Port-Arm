@@ -1,0 +1,33 @@
+ports/ShadowFight2/src/android_shim.c:494:/* ---- AConfiguration stubs ---- */
+ports/ShadowFight2/src/android_shim.c:552:/* ---- ASensorManager stubs ---- */
+ports/ShadowFight2/src/android_shim.c:592:/* ---- ANativeActivity stubs ---- */
+ports/ShadowFight2/src/imports.gen.c:239:// ===================== SIMBOLOS A IMPLEMENTAR =====================
+ports/ShadowFight2/src/jni_shim.c:9: * We create large stub vtables that return 0/NULL for everything,
+ports/ShadowFight2/src/jni_shim.c:81:/* ---- Generic stub ---- */
+ports/ShadowFight2/src/jni_shim.c:82:static intptr_t jni_stub(void) { return 0; }
+ports/ShadowFight2/src/jni_shim.c:367:    jni_env_vtable[i] = (uintptr_t)jni_stub;
+ports/ShadowFight2/src/jni_shim.c:368:    java_vm_vtable[i] = (uintptr_t)jni_stub;
+ports/ShadowFight2/src/jni_shim.h:4: * Provides a fake JavaVM and JNIEnv with stub vtables so that
+ports/ShadowFight2/src/opensles_shim.c:816:/* Stub for unused interfaces */
+ports/ShadowFight2/src/opensles_shim.c:817:static SLresult stub_success(void) { return SL_RESULT_SUCCESS; }
+ports/ShadowFight2/src/opensles_shim.c:868:  for (int i = 0; i < 8; i++) p->obj_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:874:  for (int i = 0; i < 8; i++) p->play_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:883:  for (int i = 0; i < 8; i++) p->volume_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:889:  for (int i = 0; i < 8; i++) p->bq_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:896:  for (int i = 0; i < 8; i++) p->effectsend_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:908:  static void *stub_vtable[8];
+ports/ShadowFight2/src/opensles_shim.c:909:  static void *stub_ptr;
+ports/ShadowFight2/src/opensles_shim.c:912:    for (int i = 0; i < 8; i++) stub_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:913:    stub_ptr = stub_vtable;
+ports/ShadowFight2/src/opensles_shim.c:916:  if (pInterface) *pInterface = &stub_ptr;
+ports/ShadowFight2/src/opensles_shim.c:926:  for (int i = 0; i < 8; i++) g_outmix_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:1007:    static void *stub_vtable[8];
+ports/ShadowFight2/src/opensles_shim.c:1008:    static void *stub_ptr;
+ports/ShadowFight2/src/opensles_shim.c:1011:      for (int i = 0; i < 8; i++) stub_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:1012:      stub_ptr = stub_vtable;
+ports/ShadowFight2/src/opensles_shim.c:1015:    if (pInterface) *pInterface = &stub_ptr;
+ports/ShadowFight2/src/opensles_shim.c:1034:  for (int i = 0; i < 8; i++) g_engine_obj_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/opensles_shim.c:1040:  for (int i = 0; i < 16; i++) g_engine_itf_vtable[i] = (void *)stub_success;
+ports/ShadowFight2/src/so_util.c:244:  /* Copiar TODOS os outros PT_LOAD (NDK moderno gera >2 segmentos; o
+ports/ShadowFight2/src/so_util.c:246:   * init_array todo = base+0). (proven reVC: "mapear TODOS"). */
+ports/ShadowFight2/src/so_util.c:522:/* patcheia TODOS os slots da GOT (GLOB_DAT + JUMP_SLOT) de um simbolo.

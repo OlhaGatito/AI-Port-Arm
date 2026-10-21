@@ -1,0 +1,43 @@
+{
+  "version": 4,
+  "name": "realracing3-portmaster.zip",
+  "items": [
+    "Real Racing 3.sh",
+    "realracing3"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Real Racing 3",
+    "porter": [
+      "EapRules",
+      "Pixelforge ports (Ronax)"
+    ],
+    "desc": "The 2013 Firemint/Firemonkeys racing game, running its original Android ARM library directly on Linux through a bionic/JNI compatibility loader.",
+    "desc_md": null,
+    "inst": "Playable, with performance depending on the handheld. Supply your own complete Real Racing 3 2.7.0 Android game data. The port requires libRealRacing3.so and libfmodex.so from the 2.7.0 armeabi-v7a APK together with the fully downloaded game data directory. The APK alone is not enough because the additional tracks, cars, audio and UI data can no longer be downloaded from the original game servers. Copy your donor game data into ports/realracing3/ as a folder, ZIP or APK in any combination. The filenames do not matter; on first launch the port identifies and imports the required files automatically into ports/realracing3/data/. Keep the device powered on while the import completes and allow approximately 2.6 GB of free space. Menus, driving, sound and controller input are working. Performance is approximately 15-20 FPS on RK3326-class handhelds and may be better on faster ARM devices.",
+    "inst_md": null,
+    "genres": [
+      "racing"
+    ],
+    "image": {},
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "reqs": [
+      "armhf"
+    ],
+    "arch": [
+      "armhf"
+    ],
+    "min_glibc": "2.31",
+    "status": {
+      "source": "https://github.com/eaprules/realracing3-native-arm",
+      "date_added": "2026-08-02"
+    },
+    "publisher": "Electronic Arts",
+    "developer": "Firemint",
+    "released": "2013-02-28",
+    "players": "1",
+    "availability": "paid"
+  }
+}

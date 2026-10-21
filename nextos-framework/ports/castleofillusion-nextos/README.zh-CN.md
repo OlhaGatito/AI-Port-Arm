@@ -1,0 +1,27 @@
+# Castle of Illusion（幻象城堡）— NextOS 参考
+
+[English](README.en.md) · [Português](README.md) · [中文](#)
+
+[目录](../../catalog/zh/README.md) · [AI 移植指南](../../docs/zh/AI-PORTING.md) · [已选源码](upstream/) · [Android 运行时指南：原生 Android（NDK）](../../docs/zh/NATIVE-ANDROID.md)
+
+来源：[castleofillusion-nextos](https://github.com/NextOs-Ports/castleofillusion-nextos)，commit `bbe0f6bf038be7960903dad7abb3b34c5baf5a10`。平台：Android。
+
+## 如何使用本参考
+
+本目录收录由 NextOS 创建或整合的某个移植中选出的公开源码。它既不是完整的游戏，也不是可安装的软件包。本选集不附带任何商业数据；新的移植需要权利人提供的兼容副本。
+
+在复制代码之前请先阅读 [SOURCE-MAP.json](SOURCE-MAP.json)：其中收录了 46 个文件，并另外记录了 0 项隐私/内容省略。上游配方可能需要本选集之外的文件；仅克隆本目录并不能保证可独立构建。
+
+请逐项比对引擎/构建方式、ABI、签名、数据、渲染器、音频与输入的使用方式。新的适配器应当写在别的目录中。记录所复用源码的来源、哈希与许可，并在目标处测试其契约。
+
+## 状态与限制
+
+该快照是所观察到的公开提交，并非一次新的实体认证。在声称可玩性、可安装性或设备支持之前，请先阅读该确切版本的状态。本参考自身保留的冻结项依然有效：将其与 V5 并列收录既不会迁移 V3/V4/V6，也不会重新构建已批准的二进制。
+
+## 许可与署名
+
+按文件分别保留各自的许可；完整的发布评审尚待完成。
+
+集成/收录作者：**NextOS** —— [官方 GitHub](https://github.com/NextOs-Ports)。请保留第三方许可声明与致谢。游戏数据、原始代码与商标仍归各自权利人所有。[收录条款](../../LICENSING.zh-CN.md)。
+
+`upstream/` 内的文件保留其原始字节与原有语言。本参考卡与外部指南提供双语导航，且不会改动被审计的参考源。
